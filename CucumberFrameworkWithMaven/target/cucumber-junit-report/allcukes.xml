@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="114.287">
+    <testcase classname="Login Functionality" name="verify Login Functionality by entering correct username and correct password" time="25.605">
+        <system-out>
+            <![CDATA[Given user navigates to orange hrm..........................................passed
+When user validates all login  controls are visible.........................passed
+Then user enters correct username "Admin"...................................passed
+Then user enters correct password "admin123"................................passed
+And Click on login button...................................................passed
+Then Application should display login  successful...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Functionality" name="verify Login Functionality by entering Incorrect username and Incorrect password" time="15.412">
+        <system-out>
+            <![CDATA[Given user navigates to orange hrm..........................................passed
+When user validates all login  controls are visible.........................passed
+Then user enters Incorrect username "Admin".................................passed
+Then user enters Incorrect password "adm"...................................passed
+And Click on login button...................................................passed
+Then Application should display login  Unsuccessful.........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Functionality" name="verify Login Functionality by entering correct username and correct password" time="21.17">
+        <system-out>
+            <![CDATA[Given user navigates to orange hrm..........................................passed
+When user validates all login  controls are visible.........................passed
+Then user enters correct username "Admin"...................................passed
+Then user enters correct password "admin123"................................passed
+And Click on login button...................................................passed
+Then Application should display login  successful...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Functionality" name="verify Login Functionality by entering Incorrect username and Incorrect password" time="13.199">
+        <system-out>
+            <![CDATA[Given user navigates to orange hrm..........................................passed
+When user validates all login  controls are visible.........................passed
+Then user enters Incorrect username "Adm"...................................passed
+Then user enters Incorrect password "adm"...................................passed
+And Click on login button...................................................passed
+Then Application should display login  Unsuccessful.........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Functionality" name="verify Login Functionality by entering Incorrect username and Incorrect password 2" time="14.842">
+        <system-out>
+            <![CDATA[Given user navigates to orange hrm..........................................passed
+When user validates all login  controls are visible.........................passed
+Then user enters Incorrect username "Admin*****"............................passed
+Then user enters Incorrect password "adm"...................................passed
+And Click on login button...................................................passed
+Then Application should display login  Unsuccessful.........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Sbi Login" name="Verify Login functionality of Sbi by entering invalid username and password" time="23.307">
+        <system-out>
+            <![CDATA[Given :User is on sbi login.................................................passed
+When :user click on proceed to login........................................passed
+Then :All controls on login page should be visible..........................passed
+Then :User enters username and password.....................................passed
+And : User clicks on login button...........................................passed
+Then :Validate user is logged in............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
